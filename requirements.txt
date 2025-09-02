@@ -1,4 +1,9 @@
-streamlit
-requests
-beautifulsoup4
-pandas
+streamlit>=1.35
+requests>=2.31
+beautifulsoup4>=4.12
+pandas>=2.0
+xlsxwriter>=3.2
+# Optional for Selenium features:
+selenium>=4.20
+# If you plan to export to Excel using openpyxl instead, uncomment:
+# openpyxl>=3.1
